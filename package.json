@@ -1,28 +1,20 @@
 {
   "name": "components-repo",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib", "components", "index.ts"],
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-"files": ["lib", "components", "index.ts"],
-  "dependencies": {
-    "expo": "~53.0.12",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.4",
-    "react-native-paper": "^5.14.5",
-    "react-native-vector-icons": "^10.2.0"
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
+    "typescript": "~5.8.3",
     "@types/react": "~19.0.10",
-    "typescript": "~5.8.3"
-  },
-  "private": true
+    "@babel/core": "^7.25.2"
+  }
 }
