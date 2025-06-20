@@ -10,7 +10,7 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "files": ["lib"],
+"files": ["lib", "components", "index.ts"],
   "dependencies": {
     "expo": "~53.0.12",
     "expo-status-bar": "~2.2.3",
