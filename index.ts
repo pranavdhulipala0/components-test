@@ -1,5 +1,5 @@
 import { registerRootComponent } from 'expo';
-export { default as ButtonComponent } from './src/components/ButtonComponent';
+export { default as ButtonComponent } from './components/ButtonComponent';
 
 import App from './App';
 
