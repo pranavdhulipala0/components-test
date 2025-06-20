@@ -3,13 +3,13 @@
     "target": "ESNext",
     "module": "ESNext",
     "jsx": "react-native",
-    "moduleResolution": "node",
     "declaration": true,
     "declarationDir": "lib",
     "outDir": "lib",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "moduleResolution": "node"
   },
   "include": ["src", "index.ts"]
 }
